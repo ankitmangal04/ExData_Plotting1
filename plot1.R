@@ -1,3 +1,4 @@
+
 dataset <- read.table("C:\\Users\\amanga1\\Downloads\\Exploratory data analysis\\working_dir\\household_power_consumption.txt", header = TRUE, sep = ";",stringsAsFactors = FALSE)
 subset_sm  <- dataset[ dataset$Date %in% c("1/2/2007","2/2/2007"),]
 gap <- as.numeric(subset_sm$Global_active_power)
